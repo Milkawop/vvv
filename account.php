@@ -1,9 +1,8 @@
-<? php
-class  Account {
+<?php
+class Account {
 
-частный  $ con ;
-публичная  функция  _construct ( $ con ) {
-	$ this -> con = $ con ;
+private $con;
+public function _construct($con) {
+	$this->con=$con;
 }
 }
-?> 
